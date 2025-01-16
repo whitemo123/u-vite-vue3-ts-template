@@ -1,6 +1,8 @@
 import { createSSRApp } from "vue";
 import App from "./App.vue";
 
+import "@/styles/index.scss"
+
 // 全局插件
 import global from "./global";
 
